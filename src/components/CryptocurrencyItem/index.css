@@ -1,0 +1,44 @@
+.currency-card-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  color: antiquewhite;
+}
+.logo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+.logo {
+  height: 20px;
+}
+.value-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px;
+}
+.c-name {
+  text-align: left;
+  width: 60px;
+}
+.c-u-value {
+  text-align: end;
+  width: 70px;
+}
+.c-e-value {
+  text-align: end;
+  width: 100px;
+}
+
+@media (max-width: 450px) {
+  .currency-card-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    color: antiquewhite;
+  }
+}

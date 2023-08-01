@@ -1,0 +1,21 @@
+.main-cont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.currency-card {
+  height: 650px;
+  width: 60%;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 450px) {
+  .currency-card { 
+    width: 450px;
+    padding: 10px;
+    height: 100%;
+  }
+}
